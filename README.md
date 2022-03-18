@@ -1,5 +1,5 @@
-# ftd2xxx
-Nim wrapper for FTDI ftd2xxx library
+# ftd2xx
+Nim wrapper for FTDI ftd2xx library
 
 As I cannot find a ftdi wrapper for Nim, I decided to do it by myself. 
 
@@ -7,7 +7,7 @@ The API names is inspirated by its python counterpart https://github.com/snmishr
 
 Please also refer to FTDI's offical document of C API [D2XX_Programmer's_Guide](https://www.ftdichip.com/Support/Documents/ProgramGuides/D2XX_Programmer%27s_Guide(FT_000071).pdf), the usage of FTDI APIs is inside this document.
 
-If you need MPSSE(JTAG,SPI,I2C) or Bitbang mode of FTDI chip, please also read the application note from FTDI, which is out of scope ftd2xxx nim libaray.
+If you need MPSSE(JTAG,SPI,I2C) or Bitbang mode of FTDI chip, please also read the application note from FTDI, which is out of scope ftd2xx nim libaray.
 
 **ftd2xx_wrapper.nim** is the FFI of  C wrapper of ftd2xx.h to Nim and load ftd2xx.dll which will be shipped with FTDI driver package.
 
@@ -18,7 +18,7 @@ If you need MPSSE(JTAG,SPI,I2C) or Bitbang mode of FTDI chip, please also read t
 ## Installation
 
 ```shell
-nimble install ftd2xxx
+nimble install ftd2xx
 ```
 
 ## Example 
